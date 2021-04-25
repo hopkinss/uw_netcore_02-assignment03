@@ -4,7 +4,7 @@ using System.Windows;
 
 namespace Assignment03
 {
-
+    // Shawn Hopkins Assignment 03: https://github.com/hopkinss/uw_netcore_02-assignment03
     public partial class MainWindow : Window
     {
         private ViewModel _viewModel;
