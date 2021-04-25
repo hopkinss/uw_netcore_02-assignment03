@@ -6,7 +6,7 @@ properties (IsNameSortAscending and IsPasswordSortAscendintg) in the view model 
 
 ## Additional functionality 
 <ol>
-<li>I extracted the User class to a POCO in Models and refactored the INotifyProperty and NotifyDataErrorInfo into base classes inherited by the ViewModel. </li>
+<li>I extracted the User into a simpler class in Models and refactored the INotifyProperty and NotifyDataErrorInfo into base classes inherited by the ViewModel. </li>
 <li>changed startup in app.xaml to inject the data into the view model  </li>
 <li>I moved the Listview and the selected item details into separate user controls in the Views folder </li>
 <li>Added CRUD on User operations collection </li>
